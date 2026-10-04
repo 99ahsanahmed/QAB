@@ -1,0 +1,17 @@
+.sidebar.is-open {
+  transform: translateX(0);
+}
+
+.map-block {
+  cursor: pointer;
+}
+
+.map-block polygon {
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+.map-block.selected polygon {
+  stroke: var(--blue-dark);
+  stroke-width: 4;
+}
